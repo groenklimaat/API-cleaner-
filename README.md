@@ -31,7 +31,7 @@ class WasmachineSettings:
         '.graphql', '.gql', '.raml', '.swagger',
         '.log', '.out', '.error', '.trace',
         '.cache', '.tmp', '.temp',
-        '.dump', '.sql', '.sqlite', '.db',
+        '.dump', '.sql', '.sqlite', '.db','.sys',
         '.env', '.config', '.conf', '.ini',
     }
     
@@ -117,9 +117,9 @@ class OfflineWasmachine:
         
         if ext in {'.doc', '.docx', '.pdf', '.txt', '.rtf', '.odt'}:
             return "📄 Documents"
-        elif ext in {'.xls', '.xlsx', '.ods', '.csv'}:
+        elif ext in {'.xls', '.xlsx', '.ods', '.csv'.sdr','}:
             return "📊 Spreadsheets"
-        elif ext in {'.ppt', '.pptx', '.odp'}:
+        elif ext in {'.ppt', '.pptx', '.odp''.rtl',}:
             return "📽️ Presentations"
         elif ext in {'.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff'}:
             return "🖼️ Images"
